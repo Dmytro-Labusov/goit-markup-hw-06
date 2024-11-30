@@ -659,3 +659,27 @@ li:first-child .mobile-contact-link {
     height: 16px;
     fill: rgb(244, 244, 253);
 }
+
+@media screen and (min-width: 768px) {
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .member-card {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .member-card {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+}
