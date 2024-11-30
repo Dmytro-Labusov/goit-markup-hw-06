@@ -898,7 +898,7 @@ li:first-child .mobile-contact-link {
     background-color: transparent;
 }
 
-.input-footer{
+.input-footer {
     width: 264px;
     height: 40px;
     border: 1px solid #fff;
@@ -1017,3 +1017,5 @@ li:first-child .mobile-contact-link {
         opacity: 1;
     }
 }
+
+/* ==================== MODAL  ==================== */
