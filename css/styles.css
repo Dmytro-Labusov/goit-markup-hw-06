@@ -238,7 +238,6 @@ a, span {
 
 }
 
-
 @media screen and (min-width: 1158px) {
     .logo {
         margin-right: 76px;
@@ -1096,8 +1095,6 @@ li:first-child .mobile-contact-link {
 }
 
 .form-field input {
-    /* width: 256px; */
-    /* height: 58px; */
     padding-left: 38px;
 }
 
@@ -1289,24 +1286,15 @@ li:first-child .mobile-contact-link {
     }
 
     .modal-form {
-        width: 360;
-        height: 336;
     }
 
     .form-field {
-        /* display: flex;
-        flex-direction: row;
-        justify-content: space-between; */
     }
 
     .form-field input {
-        /* width: 256px; */
     }
 
     .form-field-comment {
-        /* display: flex;
-        flex-direction: row;
-        justify-content: space-between; */
         height: 138px;
     }
 
@@ -1352,19 +1340,14 @@ li:first-child .mobile-contact-link {
     }
 
     .form-field {
-        /* display: flex;
-        flex-direction: row;
-        justify-content: space-between; */
+        
     }
 
     .form-field input {
-        /* width: 256px; */
+       
     }
 
     .form-field-comment {
-        /* display: flex;
-        flex-direction: row;
-        justify-content: space-between; */
         height: 138px;
     }
 
