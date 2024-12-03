@@ -413,11 +413,11 @@ li:first-child .mobile-contact-link {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)
-        ), url("../images/people-office.jpg");
+        ), url("../images/Mob/dark-bg-mob-@1x.jpg");
         background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -468,8 +468,25 @@ li:first-child .mobile-contact-link {
     background-color: #404BBF;
 }
 
+@media (min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi),
+(min-resolution: 2ddpx) {
+    .business-section {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)
+        ), url("../images/Mob/dark-bg-mob-@2x.jpg");
+    }
+  }
+
+   
+
 @media screen and (min-width: 768px) {
     .business-section {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)
+        ), url("../images/tab/dark-bg-tab-@1x.jpg");
         width: 768px;
         height: 432px;
     }
@@ -480,10 +497,25 @@ li:first-child .mobile-contact-link {
         line-height: 107%;
         margin-bottom: 36px;
     }
+     
+    @media (min-device-pixel-ratio: 2), 
+     (min-resolution: 192dpi),
+     (min-resolution: 2ddpx) {
+    .business-section {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)
+        ), url("../images/tab/dark-bg-tab-@2x.jpg");
+    }
+  }
 }
 
 @media screen and (min-width: 1158px) {
     .business-section {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)
+        ), url("../images/pc/dark-bg-@1x.jpg");
         width: 1440px;
         height: 600px;
     }
@@ -494,6 +526,17 @@ li:first-child .mobile-contact-link {
     }
     .order-button{
     
+    }
+
+    @media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2ddpx) {
+        .business-section {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)
+        ), url("../images/pc/dark-bg-@2x.jpg");
+        }
     }
 }
 
