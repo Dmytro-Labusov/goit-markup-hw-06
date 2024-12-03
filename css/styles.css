@@ -645,8 +645,23 @@ li:first-child .mobile-contact-link {
 }
 
 .icon-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
     display: flex;
+    align-items: center; 
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+.icon-link:hover, .icon-link:focus{
+    background-color: #404bbf;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
+}
+
 
 .social-list {
     display: flex;
@@ -1008,6 +1023,7 @@ justify-content: start;
 @media screen and (min-width: 1158px) {
     .footer {
         padding: 100px 0;
+        height: 312px;
     }
 
     .footer-container {
