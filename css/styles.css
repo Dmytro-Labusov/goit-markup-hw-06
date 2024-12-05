@@ -75,6 +75,11 @@ button {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
 /* common */
 .container {
     width: 320px;
@@ -272,6 +277,10 @@ a, span {
     
     .contact-link:focus {
         color: #404bbf;
+    }
+
+    .page-header {
+        padding: 24px;
     }
     
 }
