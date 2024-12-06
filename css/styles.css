@@ -550,6 +550,10 @@ li:first-child .mobile-contact-link {
 }
 
 /* ==================== VALUES SECTION ==================== */
+.values-container {
+    
+}
+
 .icon-container {
     display: none;
 }
@@ -562,10 +566,6 @@ li:first-child .mobile-contact-link {
 }
 
 .values-list {
-    display: flex;
-    flex-direction: column;
-    /* gap: 72px; */
-    margin-bottom: 96px;
 }
 
 .values-subtitle {
@@ -583,7 +583,7 @@ li:first-child .mobile-contact-link {
 
 @media screen and (min-width: 768px) {
     .values-list {
-        flex-direction: row;
+        display: flex;
         flex-wrap: wrap;
         gap: 72px 24px;
     }
