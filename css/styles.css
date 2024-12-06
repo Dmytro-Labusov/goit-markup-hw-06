@@ -550,47 +550,37 @@ li:first-child .mobile-contact-link {
 }
 
 /* ==================== VALUES SECTION ==================== */
-.values-section {
-    padding: 96px 0;
-}
-
 .values-container {
-    max-width: 288px;
-    margin: 0 auto;
-}
-
-.values-list {
-    display: flex;
-    flex-direction: column;
-    gap: 72px;
-    margin: 0;
-    padding: 0;
-}
-
-.values-item {
-    width: 100%;
+    
 }
 
 .icon-container {
-    display: none; /* Скрываем иконки на мобильной версии */
+    display: none;
+}
+.values-container {
+    padding-bottom: 96px 0;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.values-list {
 }
 
 .values-subtitle {
-    color: #2E2F42;
     text-align: center;
-    font-size: 36px;
     font-weight: 700;
-    line-height: 1.11;
+    font-size: 36px;
+    margin-top: 96px;
     margin-bottom: 8px;
+    line-height: 111%;
 }
 
 .text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
     font-weight: 500;
 }
+
 @media screen and (min-width: 768px) {
     .values-list {
         display: flex;
