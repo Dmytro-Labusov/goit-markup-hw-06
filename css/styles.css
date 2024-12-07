@@ -104,9 +104,9 @@ a {
 /* ==================== HEADER SECTION ==================== */
 
 .page-header {
-    padding-top: 16px;
+    /* padding-top: 16px; */
     /* width: 320px; */
-    height: 56px;
+    /* height: 56px; */
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -115,6 +115,7 @@ a {
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
+    padding: 16px;
 }
 
 .header-menu, 
@@ -162,15 +163,18 @@ a, span {
     }
 .header-container{
     align-items: center;
+    padding: 0 16px;
 }
     .logo {
         margin-right: 120px;
     }
 
     .page-header {
-        height: 72px;
+        display: flex;
     }
+.info {
 
+}
     .header-menu {
         display: flex;
         align-items: center;
@@ -222,7 +226,9 @@ a, span {
 
     .contacts {
         font-style: normal;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
     }
 
     .contact-link {
@@ -246,11 +252,15 @@ a, span {
 
     .header-nav {
         display: flex;
+        align-items: center;
     }
 
 }
 
 @media screen and (min-width: 1158px) {
+    .header-container{
+        padding: 0;
+    }
     .logo {
         margin-right: 76px;
     }
@@ -258,6 +268,7 @@ a, span {
     .contacts {
         display: flex;
         gap: 40px;
+            flex-direction: row;
     }
 
     .contact-link {
@@ -664,7 +675,13 @@ li:first-child .mobile-contact-link {
 }
 
 .team-subtitle {
+    width: 162px;
+    height: 40px;
+    font-size: 36px;
+    line-height: 1.11;
+    margin: 0 auto;
     margin-bottom: 72px;
+    white-space: nowrap;
 }
 
 .team-list {
@@ -744,23 +761,21 @@ li:first-child .mobile-contact-link {
     .team-list {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 24px;
-        padding-left: 108px;
+        gap: 64px 24px;
+        justify-content: center;
     }
 
     .member-card {
-        flex-basis: calc((100% - 24px) / 2);
+        /* flex-basis: calc((100% - 24px) / 2); */
     }
 }
 
 @media screen and (min-width: 1158px) {
     .team-list {
-        flex-wrap: nowrap;
-        gap: 24px;
         padding-left: 0;
     }
     .member-card {
-        flex-basis: calc((100% - 72px) / 4);
+        /* flex-basis: calc((100% - 72px) / 4); */
     }
 
 }
@@ -821,6 +836,13 @@ li:first-child .mobile-contact-link {
    }
 
 @media screen and (min-width: 1158px) {
+    .portfolio-container {
+        padding-top: 120px;
+    }
+    
+    .portfolio-title {
+        margin-top: 0;
+    }
     .portfolio-list {
         display: flex;
         flex-wrap: wrap;
@@ -877,6 +899,7 @@ li:first-child .mobile-contact-link {
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 16px;
     /* text-align: center; */
 }
 
@@ -885,6 +908,7 @@ li:first-child .mobile-contact-link {
 }
 
 .footer-logo {
+    text-align: center;
     color: #4d5ae5;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
@@ -908,11 +932,14 @@ li:first-child .mobile-contact-link {
 }
 
 .footer-text {
+    width: 288px;
     color: #FFFFFF;
     /* width: 264px; */
     margin: 0 auto;
 }
-
+.social-container {
+    margin-bottom: 72px;
+}
 .social-text{
     color: #FFFFFF;
     margin-bottom: 16px;
@@ -923,7 +950,6 @@ li:first-child .mobile-contact-link {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 72px;
 }
 
 .footer-item {
@@ -963,11 +989,10 @@ li:first-child .mobile-contact-link {
 }
 
 .subcribe-text {
+    text-align: center;
     color: #fff;
-    width: 75px;
-    height: 24px;
     margin-bottom: 16px;
-    padding-left: 89px;
+    
 }
 
 .subscribe-form {
@@ -1070,6 +1095,7 @@ justify-content: start;
 
     .subcribe-text {
         padding-left: 0;
+        display: flex;
     }
 
     
